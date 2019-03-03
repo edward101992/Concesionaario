@@ -16,10 +16,20 @@ public class Auto {
     String colorCarro;
     String marcaCarro;
     String tipoCarro;
+    String cantidadCarro;
+
+    public void setPrecioUnidad(String precioUnidad) {
+        this.precioUnidad = precioUnidad;
+    }
+    String precioUnidad;
     
     
     public String getCodigoCarro() {
         return codigoCarro;
+    }
+    
+     public String getPrecioUnidad() {
+        return precioUnidad;
     }
 
     public String getColorCarro() {
@@ -32,6 +42,10 @@ public class Auto {
 
     public String getTipoCarro() {
         return tipoCarro;
+    }
+    
+     public String getCantidadCarro() {
+        return cantidadCarro;
     }
 
     public void setCodigoCarro(String codigoCarro) {
@@ -48,6 +62,10 @@ public class Auto {
 
     public void setTipoCarro(String tipoCarro) {
         this.tipoCarro = tipoCarro;
+    }
+    
+    public void setCantidadCarro(String cantidadCarro) {
+        this.cantidadCarro = cantidadCarro;
     }
 
 

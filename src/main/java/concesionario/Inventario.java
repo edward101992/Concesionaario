@@ -25,7 +25,7 @@ public class Inventario {
 			flwriter = new FileWriter("D:\\EjemploArchivo\\Carros.txt");
 			BufferedWriter bfwriter = new BufferedWriter(flwriter);
 			for (Auto autotxt: (ArrayList<Auto>)lista) {
-				bfwriter.write(autotxt.getCodigoCarro()+ "," + autotxt.getColorCarro()+ "," + autotxt.getMarcaCarro() + "," + autotxt.getTipoCarro() + "\r\n");
+				bfwriter.write(autotxt.getCodigoCarro()+ "," + autotxt.getColorCarro()+ "," + autotxt.getMarcaCarro() + "," + autotxt.getTipoCarro()+ "," + autotxt.getCantidadCarro()+ "," + autotxt.getPrecioUnidad() + "\r\n");
 			}
                         bfwriter.close();
                         System.out.println("Archivo creado");
@@ -60,6 +60,8 @@ public class Inventario {
             p.setColorCarro(delimitar.next());
             p.setMarcaCarro(delimitar.next());
             p.setTipoCarro(delimitar.next());
+            p.setCantidadCarro(delimitar.next());
+            p.setPrecioUnidad(delimitar.next());
             listaCarros.add(p);
         }
         scanner.close();
@@ -76,7 +78,7 @@ public class Inventario {
 			flwriter = new FileWriter("D:\\EjemploArchivo\\Carros.txt", true);
 			BufferedWriter bfwriter = new BufferedWriter(flwriter);
 			for (Auto autotxt: (ArrayList<Auto>)lista) {
-                            	bfwriter.write(autotxt.getCodigoCarro()+ "," + autotxt.getColorCarro()+ "," + autotxt.getMarcaCarro()+ "," + autotxt.getTipoCarro()+ "\r\n" );
+				bfwriter.write(autotxt.getCodigoCarro()+ "," + autotxt.getColorCarro()+ "," + autotxt.getMarcaCarro() + "," + autotxt.getTipoCarro()+ "," + autotxt.getCantidadCarro()+ "," + autotxt.getPrecioUnidad() + "\r\n");
 
 			}
 			bfwriter.close();
