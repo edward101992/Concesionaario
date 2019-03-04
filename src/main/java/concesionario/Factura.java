@@ -13,6 +13,8 @@ import java.util.Date;
  * @author Sesbastian Rincon
  * @version 1.0
  */
+
+//Clase principal para el manejo de los datos de la factura
 public class Factura {
     
         
