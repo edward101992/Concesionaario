@@ -11,6 +11,7 @@ package concesionario;
  * @author Sebastian Rincon
  * @version 1.0
  */
+// Manejo de la clase donde se hace la funcionalidad del vendedor
 public class Vendedor {
   
     String codigoVendedor;
