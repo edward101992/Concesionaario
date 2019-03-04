@@ -12,11 +12,11 @@ package concesionario;
  * @version 1.0
  */
 
-public class Auto {
+public class Auto {         //Clase principal donde se realiza todo el manejo de la informacion relacionada con el auto
 
     /**
      * Constructor.
-     * @param codigoCarro Codigo de cada Auto
+     * @param codigoCarro Codigo de asignacion para cada Auto
      * @param colorCarro  Color de los autos
      * @param marcaCarro  Marca de los autos
      * @param tipoCarro Maquinaria- deportivo- Personalizado- Estandar
