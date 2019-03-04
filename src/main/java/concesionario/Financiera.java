@@ -11,6 +11,8 @@ package concesionario;
  * @author Sebastian Rincon
  * @version 1.0
  */
+
+//Clase Principal para el manejo financiero del sistema
 public class Financiera {
     
     public void autoMasVendido(){
