@@ -27,7 +27,7 @@ public class Cliente {
     
     public void comprarAuto(){
         /**
-         * Medoto en el cual el cliente ve el carro q desea comprar
+         * Medoto en el cual el cliente ve el carro que el usuario desea comprar
          */
         
         Inventario inv = new Inventario();
