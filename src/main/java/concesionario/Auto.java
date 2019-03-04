@@ -7,10 +7,22 @@ package concesionario;
 
 /**
  *
- * @author SuperUs
+ * @author Edward Ramos
+ * @author Sebastian Rincon
+ * @version 1.0
  */
+
 public class Auto {
 
+    /**
+     * Constructor.
+     * @param codigoCarro Codigo de cada Auto
+     * @param colorCarro  Color de los autos
+     * @param marcaCarro  Marca de los autos
+     * @param tipoCarro Maquinaria- deportivo- Personalizado- Estandar
+     * @param cantidadCarro Valor de cuantos Autos hay de esas especificaciones
+     * 
+     */
         
     String codigoCarro;
     String colorCarro;
@@ -20,6 +32,7 @@ public class Auto {
 
     public void setPrecioUnidad(String precioUnidad) {
         this.precioUnidad = precioUnidad;
+      
     }
     String precioUnidad;
     

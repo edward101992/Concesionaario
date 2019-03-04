@@ -5,10 +5,56 @@
  */
 package concesionario;
 
+import java.util.Date;
+
 /**
  *
- * @author SuperUs
+ * @author Edward Ramos
+ * @author Sesbastian Rincon
+ * @version 1.0
  */
 public class Factura {
+    
+        
+    String cliente;
+    String CodFactura;
+    Date fecha;
+    int total;
+    
+
+    public String getCliente() {
+        return cliente;
+    }
+
+    public String getCodFactura() {
+        return CodFactura;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public int getTotal() {
+        return total;
+    }
+
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
+    }
+
+    public void setCodFactura(String CodFactura) {
+        this.CodFactura = CodFactura;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
+           
+    
     
 }

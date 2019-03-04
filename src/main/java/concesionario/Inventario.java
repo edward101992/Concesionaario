@@ -14,11 +14,19 @@ import java.util.Scanner;
 
 /**
  *
- * @author SuperUs
+ * @author Edward Ramos
+ * @autor Sebstian Rincon
+ * @version 1.0
+ * Clase en la cual se crea y se guardan los datos del Auto en una ArrayList
  */
 public class Inventario {
 
- 
+ /**
+  * 
+  * Metodo que crea el archi de texto para guardar 
+  * la lista
+  * @param lista 
+  */
     public static void crearArchivo(ArrayList lista){
         FileWriter flwriter = null;
         try{
@@ -44,7 +52,11 @@ public class Inventario {
             }
         }
     }
-        
+     /**
+      * 
+      * Metodo que lee los datos guardado en el archivo .txt
+      * 
+      */
  public static ArrayList leerArchivo(){
     File file = new File("D:\\EjemploArchivo\\Carros.txt");
     ArrayList listaCarros = new ArrayList<>();
@@ -70,7 +82,13 @@ public class Inventario {
     }
     return listaCarros;
     }
-   
+   /**
+    * 
+    * Metodo que añade un nuevo auto a la lista 
+    * y lo almacena en el archivo .txt
+    * 
+    * @param lista 
+    */
 
     public static void aniadirArchivo(ArrayList lista) {
 		FileWriter flwriter = null;

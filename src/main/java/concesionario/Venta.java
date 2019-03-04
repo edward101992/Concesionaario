@@ -7,8 +7,11 @@ package concesionario;
 
 /**
  *
- * @author SuperUs
+ * @author Edward Ramos
+ * @author Sebastian Rincon
+ * @version 1.0
  */
 public class Venta {
+    String codigoVenta;
     
 }

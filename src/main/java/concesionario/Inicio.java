@@ -8,12 +8,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 /**
  *
- * @author SuperUs
+ * @author Edward Ramos
+ * @author Sebastian Rincon
+ * @version 1.0
  */
 public class Inicio {
 
     /**
-     * @param args the command line arguments
+     * @param opcion Opcion que el usuario desea en el menu
      */
     public void inicio(){
        Pruebas pruebaC = new Pruebas();
@@ -32,8 +34,9 @@ public class Inicio {
                 Pruebas pru = new Pruebas();
                 pru.menuAuto();
                 break;
-            default:
-                System.out.println("Opcion Invalida");
+            case 2:
+                Cliente cli = new Cliente();          
+                cli.comprarAuto();
                         
         }
     }
